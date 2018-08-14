@@ -1,0 +1,52 @@
+#work{
+    h1{
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        text-align: center;
+        span{
+            color: $secondary-color;
+        }
+    }
+}
+.projects {
+    .item{
+        position: relative;
+    }
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: repeat(3, 1fr);
+    
+    i{
+        display: block;
+        background: lighten($primary-color, 5);
+        border-bottom: $primary-color solid 1px;
+        padding: .5rem 1rem;
+        text-transform: uppercase;
+        @include easeOut;
+        &:hover{
+            cursor: pointer;
+            background: darken($color: $primary-color, $amount: 5)
+        }
+    }
+    img {
+        width: 100%;
+        border: 3px #fff solid;
+        &:hover {
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include easeOut;
+        }
+    }
+}
+.soon {
+    position: absolute;
+    content: "soon";
+    color: #fff;
+    background-color: $primary-color;
+    width: 98%;
+    text-transform: uppercase;
+    top: 30%;
+    left: 1%;
+    opacity: .9;
+    text-align: center;
+}

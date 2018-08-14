@@ -1,0 +1,25 @@
+{
+  "name": "projekat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0",
+    "jquery": "^3.3.1",
+    "npm": "^6.2.0",
+    "tether": "^1.4.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "popper.js": "^1.14.3",
+    "sass-autoprefixer": "^1.0.1"
+  }
+}
