@@ -14,6 +14,13 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('dist/css'))
 });
 
+//Copy html
+
+gulp.task('copyHtml', function(){
+    gulp.src('src/*.html')
+      .pipe(gulp.dest('dist'));
+})
+
 //Watch task
 
 gulp.task('watch', function(){
