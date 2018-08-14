@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const watch = require('gulp-watch');
+const uglify = require('gulp-uglify');
 //************Tasks*************
 
 gulp.task('default', function(){
@@ -19,6 +20,14 @@ gulp.task('sass', function () {
 gulp.task('copyHtml', function(){
     gulp.src('src/*.html')
       .pipe(gulp.dest('dist'));
+})
+
+//uglify js
+
+gulp.task('minify', function(){
+    gulp.src('src/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/js'));
 })
 
 //Watch task
