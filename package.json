@@ -13,6 +13,7 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
     "gulp": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
     "gulp-watch": "^5.0.0",

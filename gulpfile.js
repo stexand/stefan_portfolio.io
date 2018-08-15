@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const watch = require('gulp-watch');
 const uglify = require('gulp-uglify');
+const imagemin = require('gulp-imagemin');
 //************Tasks*************
 
 gulp.task('default', function(){
@@ -28,6 +29,13 @@ gulp.task('minify', function(){
     gulp.src('src/js/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
+})
+
+//Image minify
+gulp.task('imageMin', function(){
+    gulp.src('src/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/images'))
 })
 
 //Watch task
