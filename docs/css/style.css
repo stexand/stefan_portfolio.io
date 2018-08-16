@@ -288,7 +288,7 @@ body {
   font-family: 'Roboto Slab', serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../../src/images/header.jpg);
+    background: url(../images/header.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
