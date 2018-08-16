@@ -414,25 +414,32 @@ main {
   .menu-branding {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
-    height: 25vh; }
+    height: 30vh; }
     .menu-branding .portrait {
       width: 150px;
       height: 150px; }
   .menu-nav {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
-    height: 75vh; }
+    height: 70vh;
+    padding: 0;
+    margin: 0; }
   main {
-    text-align: center; }
+    text-align: center;
+    padding: 2rem; }
     main .lg-heading {
       line-height: 1;
-      font-size: 4rem;
-      margin-bottom: 1rem; }
+      font-size: 3rem;
+      margin-top: -15vh;
+      width: 100%;
+      padding-bottom: 3rem; }
   .about-info {
     grid-template-areas: "img" "bio" "tool1" "tool2" "tool3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .contact-title .title {
+    font-size: 2.5rem; } }
 
 @media screen and (max-width: 500px) {
   .icons {
@@ -440,7 +447,11 @@ main {
   .menu-btn {
     top: 30px;
     right: 15px; }
+  #main {
+    margin-top: -4rem; }
   .projects {
     grid-template-columns: 1fr; }
   .contact-box {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .about-title .title {
+    font-size: 2.5rem; } }
