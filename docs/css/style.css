@@ -172,8 +172,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Roboto Slab',
- serif;
+  font-family: 'Roboto Slab', serif;
   line-height: 1.5; }
 
 .about-title {
@@ -189,8 +188,7 @@ body {
 
 .about-info {
   display: grid;
-  grid-template-areas: 'img bio bio'
- 'tool1 tool2 tool3';
+  grid-template-areas: 'img bio bio' 'tool1 tool2 tool3';
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px; }
 
@@ -287,8 +285,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Roboto Slab',
- serif;
+  font-family: 'Roboto Slab', serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../../src/images/header.jpg);
