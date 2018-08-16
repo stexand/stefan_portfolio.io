@@ -76,7 +76,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../../images/portrait.jpg");
+      background: url("../../docs/images/portrait.jpg");
       background-size: cover;
       background-position: center;
       border-radius: 50%;
@@ -291,7 +291,7 @@ body {
  serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../../images/header.jpg);
+    background: url(../../docs/images/header.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
