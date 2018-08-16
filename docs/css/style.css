@@ -76,7 +76,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../../src/images/portrait.jpg");
+      background: url("../../dist/images/portrait.jpg");
       background-size: cover;
       background-position: center;
       border-radius: 50%;
@@ -172,7 +172,8 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab',
+ serif;
   line-height: 1.5; }
 
 .about-title {
@@ -188,7 +189,8 @@ body {
 
 .about-info {
   display: grid;
-  grid-template-areas: 'img bio bio' 'tool1 tool2 tool3';
+  grid-template-areas: 'img bio bio'
+ 'tool1 tool2 tool3';
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px; }
 
@@ -285,7 +287,8 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab',
+ serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../../src/images/header.jpg);
