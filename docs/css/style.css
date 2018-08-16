@@ -291,7 +291,7 @@ body {
  serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../../docs/images/header.jpg);
+    background: url("../../docs/images/header.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
