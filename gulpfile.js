@@ -13,14 +13,14 @@ gulp.task('default', function(){
 gulp.task('sass', function () {
     return gulp.src('src/sass/style.scss')
         .pipe(sass())
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('docs/css'))
 });
 
 //Copy html
 
 gulp.task('copyHtml', function(){
     gulp.src('src/*.html')
-      .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('docs'));
 })
 
 //uglify js
@@ -28,14 +28,14 @@ gulp.task('copyHtml', function(){
 gulp.task('minify', function(){
     gulp.src('src/js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('dist/js'));
+        .pipe(gulp.dest('docs/js'));
 })
 
 //Image minify
 gulp.task('imageMin', function(){
     gulp.src('src/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('dist/images'))
+        .pipe(gulp.dest('docs/images'))
 })
 
 //Watch task
