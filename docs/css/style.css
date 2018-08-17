@@ -444,9 +444,11 @@ main {
     grid-template-areas: "img" "bio" "tool1" "tool2" "tool3";
     grid-template-columns: 1fr;
     grid-gap: 0px; }
-    .about-info .about-img img {
-      width: 100px;
-      height: 100px; }
+    .about-info .about-img {
+      margin-top: 3rem; }
+      .about-info .about-img img {
+        width: 100px;
+        height: 100px; }
     .about-info .about-bio h2 {
       font-size: 1rem; }
     .about-info .tool {
