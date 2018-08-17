@@ -201,7 +201,9 @@ body {
   grid-area: img;
   margin: auto;
   border-radius: 50%;
-  border: #129CF3 3px solid; }
+  border: #129CF3 3px solid;
+  width: 70%;
+  height: 70%; }
 
 .about-bio {
   grid-area: bio;
