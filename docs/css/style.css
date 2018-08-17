@@ -202,8 +202,9 @@ body {
   margin: auto;
   border-radius: 50%;
   border: #129CF3 3px solid;
-  width: 70%;
-  height: 70%; }
+  background: url(../images/portrait.jpg);
+  background-position: center;
+  background-size: cover; }
 
 .about-bio {
   grid-area: bio;
