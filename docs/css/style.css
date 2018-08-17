@@ -176,6 +176,9 @@ body {
   font-family: 'Roboto Slab', serif;
   line-height: 1.5; }
 
+#about-section {
+  overflow-x: hidden; }
+
 .about-title {
   text-align: center; }
   .about-title .title {
