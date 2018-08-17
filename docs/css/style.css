@@ -206,10 +206,6 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  .about-img img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%; }
 
 .about-bio {
   grid-area: bio;
