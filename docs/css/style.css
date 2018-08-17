@@ -437,13 +437,7 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 0px; }
     .about-info .about-img {
-      margin-top: 1.5rem;
-      margin-bottom: 1rem; }
-      .about-info .about-img img {
-        width: 150px;
-        height: 150px;
-        background-size: cover;
-        background-position: center; }
+      font-size: 1rem; }
     .about-info .about-bio h2 {
       font-size: 1rem; }
     .about-info .tool {
