@@ -208,6 +208,7 @@ body {
 .about-bio {
   grid-area: bio;
   line-height: 1.2;
+  margin-top: 1rem;
   background: #323232;
   -ms-flex-item-align: center;
   align-self: center;
@@ -216,8 +217,9 @@ body {
 .tool {
   background: #323232;
   border-bottom: 3px solid #129CF3;
-  padding: 0.8;
-  margin-top: 4rem;
+  padding: 1rem;
+  font-size: .8rem;
+  margin-top: 1rem;
   text-align: center; }
   .tool i {
     color: #129CF3;
