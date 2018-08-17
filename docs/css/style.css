@@ -449,7 +449,9 @@ main {
       margin-bottom: 1rem; }
       .about-info .about-img img {
         width: 150px;
-        height: 150px; }
+        height: 150px;
+        background-size: cover;
+        background-position: center; }
     .about-info .about-bio h2 {
       font-size: 1rem; }
     .about-info .tool {
