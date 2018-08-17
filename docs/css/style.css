@@ -445,7 +445,8 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 0px; }
     .about-info .about-img {
-      margin-top: 3rem; }
+      margin-top: 3rem;
+      margin-bottom: 1rem; }
       .about-info .about-img img {
         width: 100px;
         height: 100px; }
