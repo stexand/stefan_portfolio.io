@@ -174,7 +174,8 @@ body {
   width: 100vw;
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+  overflow-x: hidden; }
 
 #about-section {
   overflow-x: hidden; }
@@ -290,7 +291,8 @@ body {
   width: 100vw;
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+  overflow-x: hidden; }
   body#bg-img {
     background: url(../images/header.jpg);
     background-attachment: fixed;
