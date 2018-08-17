@@ -471,4 +471,5 @@ main {
   .contact-box {
     grid-template-columns: 1fr; }
   .about-title .title {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem;
+    margin: 0; } }
