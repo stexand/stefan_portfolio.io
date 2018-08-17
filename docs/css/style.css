@@ -171,6 +171,7 @@ body {
   background: #252525;
   color: #fff;
   height: 100%;
+  width: 100vw;
   margin: 0;
   font-family: 'Roboto Slab', serif;
   line-height: 1.5; }
@@ -283,6 +284,7 @@ body {
   background: #252525;
   color: #fff;
   height: 100%;
+  width: 100vw;
   margin: 0;
   font-family: 'Roboto Slab', serif;
   line-height: 1.5; }
@@ -435,7 +437,8 @@ main {
       padding-bottom: 3rem; }
   .about-info {
     grid-template-areas: "img" "bio" "tool1" "tool2" "tool3";
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    grid-gap: 0px; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }
   .contact-title .title {
