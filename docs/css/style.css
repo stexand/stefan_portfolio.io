@@ -193,7 +193,7 @@ body {
 
 .about-info {
   display: grid;
-  grid-template-areas: 'img bio bio' 'tool1 tool2 tool3';
+  grid-template-areas: 'bioimg bio bio' 'tool1 tool2 tool3';
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px; }
 
@@ -204,7 +204,7 @@ body {
   border: #129CF3 3px solid; }
 
 .about-bio {
-  grid-area: bio;
+  grid-area: bioimg;
   line-height: 1.2;
   background: #323232;
   -ms-flex-item-align: center;
