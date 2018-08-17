@@ -433,7 +433,7 @@ main {
       width: 100%;
       padding-bottom: 3rem; }
   .about-info {
-    grid-template-areas: "img" "bio" "tool1" "tool2" "tool3";
+    grid-template-areas: "bioimg" "bio" "tool1" "tool2" "tool3";
     grid-template-columns: 1fr;
     grid-gap: 0px; }
     .about-info .about-img {
