@@ -198,13 +198,13 @@ body {
   grid-gap: 20px; }
 
 .about-img {
-  grid-area: img;
+  grid-area: bioimg;
   margin: auto;
   border-radius: 50%;
   border: #129CF3 3px solid; }
 
 .about-bio {
-  grid-area: bioimg;
+  grid-area: bio;
   line-height: 1.2;
   background: #323232;
   -ms-flex-item-align: center;
