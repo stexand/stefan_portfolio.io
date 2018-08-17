@@ -202,8 +202,8 @@ body {
   display: grid;
   margin: auto;
   border-radius: 50%;
-  width: 100%;
-  height: auto;
+  width: 250px;
+  height: 250px;
   border: #129CF3 3px solid;
   -webkit-box-align: center;
   -ms-flex-align: center;
