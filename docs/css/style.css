@@ -202,7 +202,7 @@ body {
   margin: auto;
   border-radius: 50%;
   border: #129CF3 3px solid;
-  background: url(../images/portrait.jpg);
+  background: url("../images/portrait.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
