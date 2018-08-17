@@ -190,7 +190,7 @@ body {
   display: grid;
   grid-template-areas: 'img bio bio' 'tool1 tool2 tool3';
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px; }
+  grid-gap: 20px; }
 
 .about-img {
   grid-area: img;
@@ -200,11 +200,10 @@ body {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%; }
+  justify-content: center; }
   .about-img img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%; }
 
 .about-bio {
@@ -218,7 +217,7 @@ body {
 .tool {
   background: #323232;
   border-bottom: 3px solid #129CF3;
-  padding: 1rem;
+  padding: 0.8;
   margin-top: 4rem;
   text-align: center; }
   .tool i {
